@@ -85,68 +85,62 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <ul class="mainmenu pull-right">
-                    <li class="dropdown current">
-                        <a href="index.html">Home</a>
+                    <li class=" dropdown current"><a href="contact.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="">Our Services</a>
                         <ul class="submenu">
-                            <li><a href="index-2.html">One Page Version</a></li>
+                            <li><a href="index-2.html">Estmating</a></li>
+                            <li><a href="index-2.html">Drafting</a></li>
+                            <li><a href="index-2.html"> 3D Rendering</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Pages</a>
+                        <a href="#">Expert-Eye</a>
                         <ul class="submenu">
+                            <li><a href="about.html">Reviews</a></li>
+                            <li><a href="#"> New technology </a></li>
+                            <li><a href="#"> News </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#">Extimator</a>
+                        <ul class="submenu">
+                            <li><a href="search-result.html">New House</a></li>
                             <li class="dropdown">
-                                <a href="about.html">About Us</a>
+                                <a href="about.html">Interior</a>
+                                <ul class="submenu">
+                                    <li><a href="team.html">Flooring</a></li>
+                                    <li><a href="faq.html">Bath room</a></li>
+                                    <li><a href="faq.html">Air Conditioning</a></li>
+                                    <li><a href="faq.html">Lighting</a></li>
+                                    <li><a href="faq.html">Curtain/Blinds</a></li>
+                                    <li><a href="faq.html">Kitchen Upgrade</a></li>
+                                    <li><a href="faq.html">Painting</a></li>
+                                    <li><a href="faq.html"> Security System</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+
+                                <a href="about.html">Exterior</a>
                                 <ul class="submenu">
                                     <li><a href="team.html">Our Team</a></li>
                                     <li><a href="faq.html">FAQ</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="testimonials-v1.html">Testimonial</a>
-                                <ul class="submenu right-align">
-                                    <li><a href="testimonials-v1.html">Testimonial V1</a></li>
-                                    <li><a href="testimonials-v2.html">Testimonial V2</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="search-result.html">Search Results</a></li>
-                            <li><a href="no-search-results.html">No serarch result</a></li>
-                            <li><a href="404.html">404 Page</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="services.html">Services</a>
-                        <ul class="submenu">
-                            <li><a href="services-2.html">Services Two</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-
-                        </ul>
-                    </li>
+                    <li><a href="contact.html">Contact Us</a></li>
                     <li class="dropdown">
-                        <a href="project-v1.html">Projects</a>
-                        <ul class="submenu">
-                            <li><a href="project-v1.html">Projects V1</a></li>
-                            <li><a href="project-v2.html">Projects V2</a></li>
-                            <li><a href="project-v3.html">Projects V3</a></li>
-                            <li><a href="project-v4.html">Projects V4</a></li>
-                            <li><a href="project-v5.html">Projects V5</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="shop.html">Shop</a>
+                        <a href="shop.html">Admin</a>
                         <ul class="submenu">
                             <li><a href="product-details.html">Product Details</a></li>
                             <li><a href="cart-page.html">Cart Page</a></li>
                             <li><a href="checkout-page.html">Checkout Page</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="blog.html">Blog</a>
-                        <ul class="submenu">
-                            <li><a href="blog-v2.html">Blog Style Two</a></li>
-                            <li><a href="blog.html">Blog Left Sidebar</a></li>
-                            <li><a href="blog-right.html">Blog Right Sidebar</a></li>
-                            <li><a href="blog-single.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+
+
                 </ul>
             </nav>
         </div>
