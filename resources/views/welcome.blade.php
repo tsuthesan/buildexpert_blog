@@ -162,7 +162,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="500">
-                    <h2><b>We Are Available For</b></h2>
+{{--                    <h2><b>We Are Available For</b></h2>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="right" data-hoffset="20"
@@ -172,7 +172,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="800">
-                    <h2>Any Construction Work</h2>
+{{--                    <h2>Any Construction Work</h2>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="right" data-hoffset="15"
@@ -182,11 +182,11 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="1100">
-                    <ul>
-                        <li><span>Domestic</span></li>
-                        <li><span>Commercial</span></li>
-                        <li><span>Industrial</span></li>
-                    </ul>
+{{--                    <ul>--}}
+{{--                        <li><span>Domestic</span></li>--}}
+{{--                        <li><span>Commercial</span></li>--}}
+{{--                        <li><span>Industrial</span></li>--}}
+{{--                    </ul>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="right" data-hoffset="0"
@@ -196,7 +196,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="1400">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Conse <br> quatur  earum iusto tempora nesciunt enim harum architecto, <br> quis culpa ducimus deleniti, labore. Libero magnam</p>
+{{--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Conse <br> quatur  earum iusto tempora nesciunt enim harum architecto, <br> quis culpa ducimus deleniti, labore. Libero magnam</p>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="right" data-hoffset="315"
@@ -206,7 +206,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="1700">
-                    <a href="#" class="hvr-bounce-to-right">Learn More</a>
+{{--                    <a href="#" class="hvr-bounce-to-right">Learn More</a>--}}
                 </div>
             </li>
             <li data-transition="fade">
@@ -220,7 +220,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="500">
-                    <h2>We Renovate</h2>
+{{--                    <h2>We Renovate</h2>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="left" data-hoffset="280"
@@ -230,7 +230,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="1000">
-                    <h2>Your home with heart</h2>
+{{--                    <h2>Your home with heart</h2>--}}
                 </div>
                 <div class="tp-caption sfl tp-resizeme construct-banner-caption"
                      data-x="left" data-hoffset="290"
@@ -240,7 +240,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="1500">
-                    <span class="border"></span>
+{{--                    <span class="border"></span>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="left" data-hoffset="290"
@@ -250,7 +250,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="2000">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> do eiusmod tempor incididunt ut labore et dolore.</p>
+{{--                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> do eiusmod tempor incididunt ut labore et dolore.</p>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="left" data-hoffset="290"
@@ -260,7 +260,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="2500">
-                    <a href="#" class="hvr-bounce-to-right">Learn More</a>
+{{--                    <a href="#" class="hvr-bounce-to-right">Learn More</a>--}}
                 </div>
             </li>
             <li data-transition="fade">
@@ -274,7 +274,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="700">
-                    <h2>We Are The Leader</h2>
+{{--                    <h2>We Are The Leader</h2>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="center" data-hoffset="0"
@@ -284,7 +284,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="1000">
-                    <h2>In Construction Company</h2>
+{{--                    <h2>In Construction Company</h2>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="center" data-hoffset="0"
@@ -294,7 +294,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="1300">
-                    <span class="border"></span>
+{{--                    <span class="border"></span>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="center" data-hoffset="0"
@@ -304,7 +304,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="1600">
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> do eiusmod tempor incididunt ut labore et dolore.</p>
+{{--                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> do eiusmod tempor incididunt ut labore et dolore.</p>--}}
                 </div>
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="center" data-hoffset="0"
@@ -314,7 +314,7 @@
                      data-transform_in="o:0"
                      data-transform_out="o:0"
                      data-start="1900">
-                    <a href="#" class="hvr-bounce-to-right">Learn More</a>
+{{--                    <a href="#" class="hvr-bounce-to-right">Learn More</a>--}}
                 </div>
             </li>
         </ul>
@@ -327,14 +327,14 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 single-construction-welcome">
                 <div class="img-holder hvr-rectangle-out">
-                    <img src=" {{ asset('../build/assets/img/construction-welcome/1.jpg') }}" alt="">
+                    <img src=" {{ asset('../build/assets/img/construction-welcome/1.jpg') }}" alt="" width="370px" height="182px">
                 </div>
                 <h2>Construction</h2>
                 <p>Lorem ipsum dolor sit amet, cons ectetur elit. Ves tibulum nec odios Suspe ndisse cursus mal suada faci lisis. Lorem ipsum dolor.</p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 single-construction-welcome">
                 <div class="img-holder hvr-rectangle-out">
-                    <img src=" {{ asset('../build/assets/img/construction-welcome/2.jpg') }}" alt="">
+                    <img src=" {{ asset('../build/assets/img/construction-welcome/2.jpg') }}" alt="" width="370px" height="182px">
                 </div>
                 <h2>renovation</h2>
                 <p>Lorem ipsum dolor sit amet, cons ectetur elit. Ves tibulum nec odios Suspe ndisse cursus mal suada faci lisis. Lorem ipsum dolor.</p>
