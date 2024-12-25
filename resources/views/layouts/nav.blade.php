@@ -42,11 +42,11 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Expert-Eye</a>
+                        <a href="{{ route('blogs.index') }}">Expert-Eye</a>
                         <ul class="submenu">
-                            <li><a href="about.html">Reviews</a></li>
-                            <li><a href="#"> New technology </a></li>
-                            <li><a href="#"> News </a></li>
+                            <li><a href="{{route('blogs.review')}}">Reviews</a></li>
+                            <li><a href="{{route('blogs.tech')}}"> New technology </a></li>
+                            <li><a href="{{route('blogs.news')}}"> News </a></li>
                         </ul>
                     </li>
 
