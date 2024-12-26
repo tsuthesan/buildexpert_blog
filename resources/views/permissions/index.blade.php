@@ -3,8 +3,12 @@
     <div class="container-fluid">
         <div class="pull-right">
             <br/>
-            <a href="" class="btn btn-success btn-lg">Create Permission</a>
+            <a href="{{ route('permissions.create') }}" class="btn btn-success btn-lg">Create Permission</a>
         </div>
+        @if(session('success'))
+            <div class="alert alert-success" role="alert" > {{ session('success') }}</div>
+        @endif
+
         <table class="table table-striped table-hover">
             <thead>
             <tr>
