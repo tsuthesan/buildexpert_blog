@@ -25,10 +25,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[HomeController::class,'index'])->name('welcome');
 
-Route::resource('/tags',TagController::class);
+
 Route::resource('/blogs',BlogController::class);
+Route::resource('/tags',TagController::class);
 Route::resource('/permissions',PermissionController::class);
 Route::get('/permissions/{permission}/delete',[PermissionController::class,'delete'])->name('permissions.delete');
+Route::get('/tags/{tag}/delete',[TagController::class,'delete'])->name('tags.delete');
 Route::get('/blog/news',[BlogController::class,'news'])->name('blogs.news');
 Route::get('/blog/reviews',[BlogController::class,'review'])->name('blogs.review');
 Route::get('/blog/newTechnology',[BlogController::class,'news'])->name('blogs.tech');
