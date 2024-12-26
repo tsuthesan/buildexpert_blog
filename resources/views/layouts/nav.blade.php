@@ -1,4 +1,4 @@
-<header class="construct header-curvy">
+<header class="construct header-curvy" style="border-top: 0px">
     <div class="search-box">
         <div class="container">
             <div class="pull-right search  col-lg-3 col-md-4 col-sm-5 col-xs-12">
@@ -18,7 +18,7 @@
     <div class="container">
         <div class="clearfix">
             <div class="pull-left logo">
-                <a href="index.html">
+                <a href="{{ route('welcome') }}">
                     <img src="" alt="">
                     <img src="{{ asset('../build/assets/img/resources/build-logo.png') }}" alt="buildexpert">
                 </a>
@@ -32,13 +32,13 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <ul class="mainmenu pull-right">
-                    <li class="current"><a href="contact.html">Home</a></li>
+                    <li class="current"><a href="{{ route('welcome') }}">Home</a></li>
                     <li class="dropdown">
-                        <a href="">Our Services</a>
+                        <a href="{{ route('services.index') }}">Our Services</a>
                         <ul class="submenu">
-                            <li><a href="index-2.html">Estmating</a></li>
-                            <li><a href="index-2.html">Drafting</a></li>
-                            <li><a href="index-2.html"> 3D Rendering</a></li>
+                            <li><a href="{{ route('services.estimate') }}">Estmating</a></li>
+                            <li><a href="{{ route('services.draft') }}">Drafting</a></li>
+                            <li><a href="{{ route('services.render') }}"> 3D Rendering</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -81,9 +81,13 @@
                     <li class="dropdown">
                         <a href="shop.html">Admin</a>
                         <ul class="submenu">
-                            <li><a href="product-details.html">Product Details</a></li>
-                            <li><a href="cart-page.html">Cart Page</a></li>
-                            <li><a href="checkout-page.html">Checkout Page</a></li>
+                            <li><a href="{{ route('blogs.create') }}">New News</a></li>
+{{--                            <li><a href="{{ route('blogs.overview') }}">Overview</a></li>--}}
+{{--                            <li><a href="{{ route('tags.index') }}">Tags</a></li>--}}
+{{--                            <li><a href="{{ route('users.index') }}">Users</a></li>--}}
+                            <li><a href="{{ route('permissions.index') }}">Permission</a></li>
+{{--                            <li><a href="{{ route('roles.index') }}">Roles</a></li>--}}
+{{--                            <li><a href="{{ route('logout') }}">Sign Out</a></li>--}}
                         </ul>
                     </li>
 
