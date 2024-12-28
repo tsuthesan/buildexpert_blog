@@ -86,8 +86,8 @@
                             <li><a href="{{ route('tags.index') }}">Tags</a></li>
 {{--                            <li><a href="{{ route('users.index') }}">Users</a></li>--}}
                             <li><a href="{{ route('permissions.index') }}">Permission</a></li>
-{{--                            <li><a href="{{ route('roles.index') }}">Roles</a></li>--}}
-{{--                            <li><a href="{{ route('logout') }}">Sign Out</a></li>--}}
+                            <li><a href="{{ route('roles.index') }}">Roles</a></li>
+                            <li><a href="{{ route('logout') }}">Sign Out</a></li>
                         </ul>
                     </li>
 

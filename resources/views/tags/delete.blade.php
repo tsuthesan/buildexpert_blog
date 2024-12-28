@@ -3,7 +3,7 @@
     <div class="row">
         <div class="row">
             <div class="col-12">
-                <div class="container-fluid">
+                <div class="container-fluid form-group">
                     <form action="{{ route('tags.destroy',$tag->id) }}" method="POST">
                         @method('DELETE')
                         @csrf
