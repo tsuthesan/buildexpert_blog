@@ -2,8 +2,8 @@
 @section('content')
     <div class="row">
         <div class="row">
-            <div class="col-12">
-                <div class="container-fluid form-group">
+            <div class="col-md-8 col-md-offset-1">
+                <div class="container-fluid">
                     <form action="{{ route('tags.destroy',$tag->id) }}" method="POST">
                         @method('DELETE')
                         @csrf
