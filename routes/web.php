@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ImageUploadController;
 use App\Http\Controllers\PermissionController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\ServiceController;
@@ -36,7 +37,9 @@ Route::get('/tags/{tag}/delete',[TagController::class,'delete'])->name('tags.del
 Route::get('/roles/{role}/delete',[RoleController::class,'delete'])->name('roles.delete');
 Route::get('/blog/news',[BlogController::class,'news'])->name('blogs.news');
 Route::get('/blog/reviews',[BlogController::class,'review'])->name('blogs.review');
-Route::get('/blog/newTechnology',[BlogController::class,'news'])->name('blogs.tech');
+Route::get('/blog/newTechnology',[BlogController::class,'technology'])->name('blogs.tech');
+Route::get('/overview',[BlogController::class,'overview'])->name('blogs.overview');
+Route::post('/upload-image', [ImageUploadController::class, 'upload'])->name('image.upload');
 
 Route::get('/register',[AuthController::class,'signup'])->name('user.register');
 Route::post('/register/store',[AuthController::class,'register'])->name('register.store');

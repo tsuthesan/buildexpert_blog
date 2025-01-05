@@ -28,4 +28,7 @@
 <![endif]-->
 <!--[if lt IE 9]>
 <script src="{{ asset('../build/assets/js/respond.js') }}"></script>
+
+<!--<script src="https://cdn.tiny.cloud/1/hynsrvjliofhsuvferhykwvbnrfdssixt6ew5gjg4hlj2dw6/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>-->
+
     <![endif]-->
