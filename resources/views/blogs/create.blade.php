@@ -9,6 +9,7 @@
                     plugins: 'lists link image table code',
                     toolbar: 'undo redo | bold italic | alignleft aligncenter alignright | bullist numlist | link image | code',
                     hight:300,
+                    license_key: 'hynsrvjliofhsuvferhykwvbnrfdssixt6ew5gjg4hlj2dw6',
                     file_picker_types: 'image',
                     automatic_uploads: true,
                     file_picker_callback: function (callback, value, meta) {
