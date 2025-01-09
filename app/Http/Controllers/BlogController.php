@@ -29,7 +29,7 @@ class BlogController extends Controller
     {
         $tag = Tag::where('name', 'New Technology')->first();
         if (!$tag) {
-            return redirect()->back()->with('error', 'Tag "new technology" not found.');
+            return redirect()->back()->with('error', 'new technology" not found.');
         }
         $blogs = $tag->blogs()->paginate(20);
         return view('blogs.tech', compact('blogs'));
@@ -77,6 +77,7 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
+
 //        dd($request->all());
         $request->validate([
             'title' => 'required|string|max:255',

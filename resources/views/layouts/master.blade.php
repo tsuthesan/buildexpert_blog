@@ -10,9 +10,6 @@
 
     @include('layouts.partials.css');
 @yield('styles')
-
-
-
 </head>
 <body>
 @yield('scripts')
