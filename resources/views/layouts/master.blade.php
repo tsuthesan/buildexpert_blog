@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Build Expert </title>
+    <title> @section('title') </title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Responsive Meta Tag -->

@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('title')
+    ||Build Expert
+    @stop
 @section('content')
 
     @include('layouts.carousel')
