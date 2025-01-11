@@ -11,6 +11,7 @@
         <div class="col-lg-8">
             <form action="{{ route('users.update',$user->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
+                @method('PUT')
 
                 <div class=""></div>
                 <div class="form-group">
