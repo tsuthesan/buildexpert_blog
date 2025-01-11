@@ -57,29 +57,30 @@
                             <li class="dropdown">
                                 <a href="about.html">Interior</a>
                                 <ul class="submenu">
-                                    <li><a href="team.html">Flooring</a></li>
-                                    <li><a href="faq.html">Bath room</a></li>
-                                    <li><a href="faq.html">Air Conditioning</a></li>
-                                    <li><a href="faq.html">Lighting</a></li>
-                                    <li><a href="faq.html">Curtain/Blinds</a></li>
-                                    <li><a href="faq.html">Kitchen Upgrade</a></li>
-                                    <li><a href="faq.html">Painting</a></li>
-                                    <li><a href="faq.html"> Security System</a></li>
+                                    <li><a href="">Flooring</a></li>
+                                    <li><a href="">Bath room</a></li>
+                                    <li><a href="">Air Conditioning</a></li>
+                                    <li><a href="">Lighting</a></li>
+                                    <li><a href="">Curtain/Blinds</a></li>
+                                    <li><a href="">Kitchen Upgrade</a></li>
+                                    <li><a href="">Painting</a></li>
+                                    <li><a href=""> Security System</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
 
-                                <a href="about.html">Exterior</a>
+                                <a href="">Exterior</a>
                                 <ul class="submenu">
-                                    <li><a href="team.html">Our Team</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="">Our Team</a></li>
+                                    <li><a href="">FAQ</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </li>
                     <li><a href="contact.html">Contact Us</a></li>
+                    @auth
                     <li class="dropdown">
-                        <a href="shop.html">Admin</a>
+                        <a href="">Admin</a>
                         <ul class="submenu">
                             <li><a href="{{ route('blogs.create') }}">New News</a></li>
 {{--                            <li><a href="{{ route('blogs.overview') }}">Overview</a></li>--}}
@@ -89,6 +90,8 @@
                             <li><a href="{{ route('roles.index') }}">Roles</a></li>
                             <li><a href="{{ route('blogs.overview') }}">Overview</a></li>
                             <li><a href="{{ route('logout') }}">Sign Out</a></li>
+
+                            @endauth
                         </ul>
                     </li>
 

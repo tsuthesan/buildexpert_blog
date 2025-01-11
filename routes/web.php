@@ -29,12 +29,6 @@ Route::get('/',[HomeController::class,'index'])->name('welcome');
 
 
 Route::resource('/blogs',BlogController::class);
-Route::resource('/tags',TagController::class);
-Route::resource('/permissions',PermissionController::class);
-Route::resource('/roles',RoleController::class);
-Route::get('/permissions/{permission}/delete',[PermissionController::class,'delete'])->name('permissions.delete');
-Route::get('/tags/{tag}/delete',[TagController::class,'delete'])->name('tags.delete');
-Route::get('/roles/{role}/delete',[RoleController::class,'delete'])->name('roles.delete');
 Route::get('/blog/news',[BlogController::class,'news'])->name('blogs.news');
 Route::get('/blog/reviews',[BlogController::class,'review'])->name('blogs.review');
 Route::get('/blog/newTechnology',[BlogController::class,'technology'])->name('blogs.tech');
@@ -52,3 +46,15 @@ Route::get('/services/estimate',[ServiceController::class,'estimate'])->name('se
 Route::get('/services/draft',[ServiceController::class,'draft'])->name('services.draft');
 Route::get('/services/render',[ServiceController::class,'render'])->name('services.render');
 
+Route::middleware('auth')->group(function(){
+    Route::resource('/permissions',PermissionController::class);
+    Route::get('/permissions/{permission}/delete',[PermissionController::class,'delete'])->name('permissions.delete');
+    Route::resource('/roles',RoleController::class);
+    Route::get('/roles/{role}/delete',[RoleController::class,'delete'])->name('roles.delete');
+    Route::resource('/tags',TagController::class);
+    Route::get('/tags/{tag}/delete',[TagController::class,'delete'])->name('tags.delete');
+
+
+
+
+});
