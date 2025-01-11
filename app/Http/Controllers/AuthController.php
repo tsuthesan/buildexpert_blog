@@ -45,7 +45,7 @@ class AuthController extends Controller
     }
 
     public function login(request $req){
-
+//            dd($req->all());
         $req->validate([
             'email' =>'required|email',
             'password' =>'required',
@@ -53,7 +53,7 @@ class AuthController extends Controller
 
         $auth = $req->only('email','password');
         if(Auth::attempt($auth)){
-            return redirect()->route('tags.index')->with('success','login successfully');
+            return redirect()->route('welcome')->with('success','login successfully');
         }
         else{
             return back()->with('error','something went wrong');
