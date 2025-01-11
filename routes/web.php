@@ -8,6 +8,7 @@ use App\Http\Controllers\PermissionController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TagController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -53,6 +54,9 @@ Route::middleware('auth')->group(function(){
     Route::get('/roles/{role}/delete',[RoleController::class,'delete'])->name('roles.delete');
     Route::resource('/tags',TagController::class);
     Route::get('/tags/{tag}/delete',[TagController::class,'delete'])->name('tags.delete');
+    Route::resource('/users',UserController::class);
+    Route::get('/users/{user}/delete',[UserController::class,'delete'])->name('users.delete');
+
 
 
 

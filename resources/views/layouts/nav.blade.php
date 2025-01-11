@@ -88,6 +88,7 @@
 {{--                            <li><a href="{{ route('users.index') }}">Users</a></li>--}}
                             <li><a href="{{ route('permissions.index') }}">Permission</a></li>
                             <li><a href="{{ route('roles.index') }}">Roles</a></li>
+                            <li><a href="{{ route('users.index') }}">Users</a></li>
                             <li><a href="{{ route('blogs.overview') }}">Overview</a></li>
                             <li><a href="{{ route('logout') }}">Sign Out</a></li>
 
