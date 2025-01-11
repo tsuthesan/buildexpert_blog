@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('title')
+    ||Build Expert - Delete
+@stop
 @section('content')
     <div class="row">
         <div class="row">

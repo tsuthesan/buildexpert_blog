@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('title')
+    ||Build Expert - Edit
+@stop
 @section('content')
     <div class="page-header text">
         <h3> Edit Tag</h3>

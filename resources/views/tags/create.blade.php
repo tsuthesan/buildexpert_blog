@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('title')
+    ||Build Expert - create
+@stop
 @section('content')
     <div class="page-header text">
         <h3> Create Tag</h3>
