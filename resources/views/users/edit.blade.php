@@ -9,7 +9,7 @@
     </div>
     <div class="container-fluid ">
         <div class="col-lg-8">
-            <form action="{{ route('users.index') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('users.update',$user->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
 
                 <div class=""></div>
