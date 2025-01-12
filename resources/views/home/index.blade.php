@@ -78,7 +78,7 @@
         </div>
     </section>
 
-
+    @if(!$newTechnologyPosts->isEmpty())
     <section id="blog-construct">
         <div class="container">
             <div class="section-title">
@@ -105,6 +105,7 @@
             </div>
         </div>
     </section>
+    @endif
     @if(!$reviewPosts->isEmpty())
     <section id="blog-construct">
         <div class="container">
