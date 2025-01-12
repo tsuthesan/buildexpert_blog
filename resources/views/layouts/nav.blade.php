@@ -3,7 +3,8 @@
         <div class="container">
             <div class="pull-right search  col-lg-3 col-md-4 col-sm-5 col-xs-12">
                 <form action="#">
-                    <input type="text" placeholder="Search Here"> <button type="submit"><i class="icon icon-Search"></i></button>
+                    <input type="text" placeholder="Search Here">
+                    <button type="submit"><i class="icon icon-Search"></i></button>
                 </form>
             </div>
         </div>
@@ -11,7 +12,8 @@
     <div class="cart-box">
         <div class="container">
             <div class="pull-right cart col-lg-6 col-xs-12">
-                <p><i class="icon icon-FullShoppingCart"></i> You Have <span>1 Item</span> in your Cart. Price is <span>$199</span></p>
+                <p><i class="icon icon-FullShoppingCart"></i> You Have <span>1 Item</span> in your Cart. Price is <span>$199</span>
+                </p>
             </div>
         </div>
     </div>
@@ -79,21 +81,21 @@
                     </li>
                     <li><a href="">Contact Us</a></li>
                     @auth
-                    <li class="dropdown">
-                        <a href="">Admin</a>
-                        <ul class="submenu">
-                            <li><a href="{{ route('blogs.create') }}">New News</a></li>
-{{--                            <li><a href="{{ route('blogs.overview') }}">Overview</a></li>--}}
-                            <li><a href="{{ route('tags.index') }}">Tags</a></li>
-                            <li><a href="{{ route('users.index') }}">Users</a></li>
-                            <li><a href="{{ route('permissions.index') }}">Permission</a></li>
-                            <li><a href="{{ route('roles.index') }}">Roles</a></li>
-                            <li><a href="{{ route('blogs.overview') }}">Overview</a></li>
-                            <li><a href="{{ route('logout') }}">Sign Out</a></li>
+                        <li class="dropdown">
+                            <a href="">Admin</a>
+                            <ul class="submenu">
+                                <li><a href="{{ route('blogs.create') }}">New News</a></li>
+                                {{--                            <li><a href="{{ route('blogs.overview') }}">Overview</a></li>--}}
+                                <li><a href="{{ route('tags.index') }}">Tags</a></li>
+                                <li><a href="{{ route('users.index') }}">Users</a></li>
+                                <li><a href="{{ route('permissions.index') }}">Permission</a></li>
+                                <li><a href="{{ route('roles.index') }}">Roles</a></li>
+                                <li><a href="{{ route('blogs.overview') }}">Overview</a></li>
+                                <li><a href="{{ route('logout') }}">Sign Out</a></li>
 
-                            @endauth
-                        </ul>
-                    </li>
+                                @endauth
+                            </ul>
+                        </li>
 
 
                 </ul>
