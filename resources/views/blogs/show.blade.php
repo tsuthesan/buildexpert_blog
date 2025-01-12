@@ -2,7 +2,6 @@
 
 @section('content')
 
-
     <!-- #page-title -->
     <section id="page-title">
         <div class="container">
@@ -14,7 +13,8 @@
                     </div> <!-- /.title -->
                     <!-- .page-breadcumb -->
                     <div class="page-breadcumb pull-right">
-                        <i class="fa fa-home"></i> <a href="{{ route('welcome') }}">Home</a> <i class="fa fa-angle-right"></i> <span>blogs</span>
+                        <i class="fa fa-home"></i> <a href="{{ route('welcome') }}">Home</a> <i
+                            class="fa fa-angle-right"></i> <span>blogs</span>
                     </div> <!-- /.page-breadcumb -->
                 </div>
             </div>
@@ -26,7 +26,8 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-push-0 col-md-push-0 col-sm-push-3 col-xs-push-0 sidebar blog-left">
+                <div
+                    class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-push-0 col-md-push-0 col-sm-push-3 col-xs-push-0 sidebar blog-left">
                     <!-- .sidebar-widget -->
                     <div class="sidebar-widget">
                         <h4>Search</h4>
@@ -162,12 +163,6 @@
                         </ul>
                         <p>{!!($blog->content)  !!} </p>
                     </article>
-
-
-
-
-
-
 
 
                 </div> <!-- /.blog-content -->

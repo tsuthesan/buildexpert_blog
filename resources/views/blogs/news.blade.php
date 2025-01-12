@@ -1,26 +1,29 @@
 @extends('layouts.master')
 @section('content')
     <section id="page-title">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- .title -->
-                <div class="title pull-left">
-                    <h1>blogs</h1>
-                </div> <!-- /.title -->
-                <!-- .page-breadcumb -->
-                <div class="page-breadcumb pull-right">
-                    <i class="fa fa-home"></i> <a href="{{ route('welcome') }}">Home</a> <i class="fa fa-angle-right"></i> </i> <span>Expert-eye</span> <i class="fa fa-angle-right"></i> <span>News</span>
-                </div> <!-- /.page-breadcumb -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- .title -->
+                    <div class="title pull-left">
+                        <h1>blogs</h1>
+                    </div> <!-- /.title -->
+                    <!-- .page-breadcumb -->
+                    <div class="page-breadcumb pull-right">
+                        <i class="fa fa-home"></i> <a href="{{ route('welcome') }}">Home</a> <i
+                            class="fa fa-angle-right"></i> </i> <span>Expert-eye</span> <i
+                            class="fa fa-angle-right"></i> <span>News</span>
+                    </div> <!-- /.page-breadcumb -->
+                </div>
             </div>
         </div>
-    </div>
     </section>
     <section id="blog-post">
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-push-0 col-md-push-0 col-sm-push-3 col-xs-push-0 sidebar blog-left">
+                <div
+                    class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-lg-push-0 col-md-push-0 col-sm-push-3 col-xs-push-0 sidebar blog-left">
                     <!-- .sidebar-widget -->
                     <div class="sidebar-widget">
                         <h4>Search</h4>
@@ -51,7 +54,8 @@
                                 <li><a href="#"><i class="fa fa-comments-o"></i> Comments: 5</a></li>
                             </ul>
                             <p>{{ Str::limit($blog->body,300) }}</p>
-                            <a href="{{ route('blogs.show',$blog->id) }}">Read More <i class="fa fa-long-arrow-right"></i></a>
+                            <a href="{{ route('blogs.show',$blog->id) }}">Read More <i
+                                    class="fa fa-long-arrow-right"></i></a>
                         </article>
 
                     @endforeach
