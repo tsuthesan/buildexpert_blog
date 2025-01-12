@@ -1,4 +1,3 @@
-
 @extends('layouts.master')
 @section('content')
     <section id="service-we-provide" class="construct">
@@ -21,16 +20,20 @@
                         <div class="service-tab-content clearfix">
                             <div id="Estimating">
                                 <div class="col-lg-8 col-md-7 col-sm-8">
-                                    <p>Precise and reliable estimation services tailored for both builders and private clients.
-                                        Our expertise ensures that every project is accurately assessed,  <br>
-                                        helping you make informed decisions,manage budgets, and streamline your building process.</p>
+                                    <p>Precise and reliable estimation services tailored for both builders and private
+                                        clients.
+                                        Our expertise ensures that every project is accurately assessed, <br>
+                                        helping you make informed decisions,manage budgets, and streamline your building
+                                        process.</p>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <img src="{{ asset('../build/assets/img/service-we-provide/1.jpg')}}" alt="" height="165px" width="279px">
+                                            <img src="{{ asset('../build/assets/img/service-we-provide/1.jpg')}}" alt=""
+                                                 height="165px" width="279px">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul>
-                                                <li><i class="fa fa-arrow-circle-o-right"></i>Residential Estimating</li>
+                                                <li><i class="fa fa-arrow-circle-o-right"></i>Residential Estimating
+                                                </li>
                                                 <li><i class="fa fa-arrow-circle-o-right"></i>Trade estimating</li>
 
                                             </ul>
@@ -38,7 +41,8 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
-                                    <img src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""height="508px" width="288px">
+                                    <img src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""
+                                         height="508px" width="288px">
                                 </div>
                             </div>
 

@@ -6,7 +6,8 @@
                 <h2>Edit Role</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary btn-sm mb-2" href="{{ route('roles.index') }}"><i class="fa fa-arrow-left"></i> Back</a>
+                <a class="btn btn-primary btn-sm mb-2" href="{{ route('roles.index') }}"><i
+                        class="fa fa-arrow-left"></i> Back</a>
             </div>
         </div>
     </div>
@@ -33,20 +34,22 @@
                     <input type="text" name="name" placeholder="Name" class="form-control" value="{{ $role->name }}">
                 </div>
             </div>
-{{--            <div class="col-xs-4 col-sm-4 col-md-4">--}}
-                <div class="col col-xs-12 col-sm-12 col-md-12">
+            {{--            <div class="col-xs-4 col-sm-4 col-md-4">--}}
+            <div class="col col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group list-group-item ">
                     <strong class="text-center">Permission:</strong>
                     <br/>
                     @foreach($permission as $value)
-                        <label><input type="checkbox" name="permission[{{$value->id}}]" value="{{$value->id}}" class="name" {{ in_array($value->id, $rolePermissions) ? 'checked' : ''}}>
+                        <label><input type="checkbox" name="permission[{{$value->id}}]" value="{{$value->id}}"
+                                      class="name" {{ in_array($value->id, $rolePermissions) ? 'checked' : ''}}>
                             {{ $value->name }}</label>
                         <br/>
                     @endforeach
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <button type="submit" class="btn btn-success btn-lg"><i class="fa-solid fa-floppy-disk"></i> Submit</button>
+                <button type="submit" class="btn btn-success btn-lg"><i class="fa-solid fa-floppy-disk"></i> Submit
+                </button>
             </div>
         </div>
     </form>

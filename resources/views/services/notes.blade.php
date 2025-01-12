@@ -1,4 +1,3 @@
-
 <!-- #service-we-provide -->
 <section id="service-we-provide" class="construct">
     <div class="container">
@@ -24,7 +23,10 @@
                     <div class="service-tab-content clearfix">
                         <div id="construction">
                             <div class="col-lg-8 col-md-7 col-sm-8">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br> dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent <br> ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo <br> inventore veritatis et quasi architecto.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br>
+                                    dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent <br> ore
+                                    veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo <br>
+                                    inventore veritatis et quasi architecto.</p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <img src=" {{ asset('../build/assets/img/service-we-provide/1.jpg') }}" alt="">
@@ -33,7 +35,7 @@
                                         <ul>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus erroroluptatem</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium doloremue</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde </li>
+                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus error sit volupta</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>
                                         </ul>
@@ -46,7 +48,10 @@
                         </div>
                         <div id="renovation">
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore
+                                    mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et
+                                    quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto.</p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <img src=" {{ asset('../build/assets/img/service-we-provide/1.jpg') }}" alt="">
@@ -55,7 +60,7 @@
                                         <ul>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus erroroluptatem</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium doloremue</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde </li>
+                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus error sit volupta</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>
                                         </ul>
@@ -68,7 +73,10 @@
                         </div>
                         <div id="interior">
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore
+                                    mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et
+                                    quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto.</p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <img src=" {{ asset('../build/assets/img/service-we-provide/1.jpg') }}" alt="">
@@ -77,7 +85,7 @@
                                         <ul>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus erroroluptatem</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium doloremue</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde </li>
+                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus error sit volupta</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>
                                         </ul>
@@ -90,7 +98,10 @@
                         </div>
                         <div id="isolatoin">
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore
+                                    mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et
+                                    quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto.</p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <img src=" {{ asset('../build/assets/img/service-we-provide/1.jpg') }}" alt="">
@@ -99,7 +110,7 @@
                                         <ul>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus erroroluptatem</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium doloremue</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde </li>
+                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus error sit volupta</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>
                                         </ul>
@@ -112,7 +123,10 @@
                         </div>
                         <div id="roof">
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore
+                                    mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et
+                                    quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto.</p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <img src=" {{ asset('../build/assets/img/service-we-provide/1.jpg') }}" alt="">
@@ -121,7 +135,7 @@
                                         <ul>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus erroroluptatem</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium doloremue</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde </li>
+                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus error sit volupta</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>
                                         </ul>
@@ -134,7 +148,10 @@
                         </div>
                         <div id="consluting">
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore
+                                    mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et
+                                    quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto.</p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <img src=" {{ asset('../build/assets/img/service-we-provide/1.jpg') }}" alt="">
@@ -143,7 +160,7 @@
                                         <ul>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus erroroluptatem</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium doloremue</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde </li>
+                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus error sit volupta</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>
                                         </ul>
@@ -156,7 +173,10 @@
                         </div>
                         <div id="maintanance">
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore
+                                    mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent ore veritatis et
+                                    quasi architecto beatae vitae dict eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto.</p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <img src=" {{ asset('../build/assets/img/service-we-provide/1.jpg') }}" alt="">
@@ -165,7 +185,7 @@
                                         <ul>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus erroroluptatem</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium doloremue</li>
-                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde </li>
+                                            <li><i class="fa fa-arrow-circle-o-right"></i>Laudantium unde</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Natus error sit volupta</li>
                                             <li><i class="fa fa-arrow-circle-o-right"></i>Accusantium dolor</li>
                                         </ul>

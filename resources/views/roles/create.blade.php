@@ -6,7 +6,8 @@
                 <h2>Create New Role</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary btn-sm mb-2" href="{{ route('roles.index') }}"><i class="fa fa-arrow-left"></i> Back</a>
+                <a class="btn btn-primary btn-sm mb-2" href="{{ route('roles.index') }}"><i
+                        class="fa fa-arrow-left"></i> Back</a>
             </div>
         </div>
     </div>
@@ -36,14 +37,17 @@
                     <strong>Permission:</strong>
                     <br/>
                     @foreach($permission as $value)
-                        <label><input type="checkbox" name="permission[{{$value->id}}]" value="{{$value->id}}" class="name">
+                        <label><input type="checkbox" name="permission[{{$value->id}}]" value="{{$value->id}}"
+                                      class="name">
                             {{ $value->name }}</label>
                         <br/>
                     @endforeach
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <button type="submit" class="btn btn-success btn-lg mb-3 "><i class="fa-solid fa-floppy-disk"></i> Submit</button>
+                <button type="submit" class="btn btn-success btn-lg mb-3 "><i class="fa-solid fa-floppy-disk"></i>
+                    Submit
+                </button>
             </div>
         </div>
     </form>

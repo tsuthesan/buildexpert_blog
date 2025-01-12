@@ -20,14 +20,17 @@
 
                             <div id="Drafting">
                                 <div class="col-lg-8 col-md-8 col-sm-8">
-                                    <p>Designed to bring your architectural visions to life. Our skilled team provides precise and detailed drawings that cater to the unique requirements of your project, ensuring a smooth transition from concept to construction.</p>
+                                    <p>Designed to bring your architectural visions to life. Our skilled team provides
+                                        precise and detailed drawings that cater to the unique requirements of your
+                                        project, ensuring a smooth transition from concept to construction.</p>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <img src="{{ asset('../build/assets/img/service-we-provide/1.jpg')}}" alt="" height="165px" width="279px">
+                                            <img src="{{ asset('../build/assets/img/service-we-provide/1.jpg')}}" alt=""
+                                                 height="165px" width="279px">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                             <ul>
-                                                <li><i class="fa fa-arrow-circle-o-right"></i>Residential drafting </li>
+                                                <li><i class="fa fa-arrow-circle-o-right"></i>Residential drafting</li>
                                                 <li><i class="fa fa-arrow-circle-o-right"></i>Detailed drawings</li>
 
                                             </ul>
@@ -35,10 +38,10 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
-                                    <img src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt="" height="508px" width="288px">
+                                    <img src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""
+                                         height="508px" width="288px">
                                 </div>
                             </div>
-
 
 
                         </div>

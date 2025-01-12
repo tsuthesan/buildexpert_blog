@@ -15,7 +15,8 @@
                 <div class=""></div>
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Name" value="{{ $tag->name }}" name="name">
+                    <input type="text" class="form-control" id="name" placeholder="Name" value="{{ $tag->name }}"
+                           name="name">
                 </div>
 
                 <button type="submit" class="btn btn-success">Update</button>
@@ -26,4 +27,4 @@
 
     </div>
 
-    @stop
+@stop

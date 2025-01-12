@@ -1,8 +1,9 @@
 <section class="rev_slider_wrapper construct-banner-wrapper">
-    <div id="slider1" class="rev_slider"  data-version="5.0">
+    <div id="slider1" class="rev_slider" data-version="5.0">
         <ul>
             <li data-transition="fade">
-                <img src=" {{ asset('/build/assets/img/slides/image01.jpg') }}" width="1920px" height="718px"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src=" {{ asset('/build/assets/img/slides/image01.jpg') }}" width="1920px" height="718px" alt=""
+                     data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="right" data-hoffset="0"
@@ -60,7 +61,8 @@
                 </div>
             </li>
             <li data-transition="fade">
-                <img src=" {{ asset('/build/assets/img/slides/image02.jpg') }}"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src=" {{ asset('/build/assets/img/slides/image02.jpg') }}" alt="" data-bgposition="center top"
+                     data-bgfit="cover" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="left" data-hoffset="270"
@@ -114,7 +116,8 @@
                 </div>
             </li>
             <li data-transition="fade">
-                <img src=" {{ asset('/build/assets/img/slides/image03.jpg') }}"  alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src=" {{ asset('/build/assets/img/slides/image03.jpg') }}" alt="" data-bgposition="center top"
+                     data-bgfit="cover" data-bgrepeat="no-repeat">
 
                 <div class="tp-caption sfb tp-resizeme construct-banner-caption"
                      data-x="center" data-hoffset="0"
