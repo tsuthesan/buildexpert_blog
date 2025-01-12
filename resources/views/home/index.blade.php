@@ -105,6 +105,7 @@
             </div>
         </div>
     </section>
+    @if(!$reviewPosts->isEmpty())
     <section id="blog-construct">
         <div class="container">
             <div class="section-title">
@@ -121,7 +122,7 @@
                                 <b>{{ $review->created_at ->format('d') }}</b> <br>{{ $review->created_at->format('M') }}
                             </div>
                         </div>
-                        <a href="#"><h2>{{$review->title}}</h2></a>
+                        <a href="{{ route('blogs.show',$review->id) }}"><h2>{{$review->title}}</h2></a>
                         <p>{{ $review->body }}</p>
                         <ul>
                             <li><span><b>By: </b> Admin</span></li>
@@ -134,6 +135,7 @@
 
         </div>
     </section>
+    @endif
 
     <section id="blog-construct">
         <div class="container">
