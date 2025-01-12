@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ImageUploadController;
 use App\Http\Controllers\PermissionController;
@@ -41,6 +42,7 @@ Route::post('/register/store', [AuthController::class, 'register'])->name('regis
 Route::get('/login', [AuthController::class, 'signin'])->name('login');
 Route::post('/login/store', [AuthController::class, 'login'])->name('login.store');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+Route::resource('/contact-us',ContactController::class);
 
 Route::get('/services', [ServiceController::class, 'index'])->name('services.index');
 Route::get('/services/estimate', [ServiceController::class, 'estimate'])->name('services.estimate');

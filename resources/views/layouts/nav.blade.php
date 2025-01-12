@@ -79,7 +79,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="{{ route('contact-us.create') }}">Contact Us</a></li>
                     @auth
                         <li class="dropdown">
                             <a href="">Admin</a>
