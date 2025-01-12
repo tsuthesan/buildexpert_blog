@@ -79,95 +79,98 @@
     </section>
 
     @if(!$newTechnologyPosts->isEmpty())
-    <section id="blog-construct">
-        <div class="container">
-            <div class="section-title">
-                <h1>New Technology</h1>
-            </div>
-            <div class="row">
-                @foreach($newTechnologyPosts as $tech)
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-blog-post">
-                        <div class="img-holder hvr-rectangle-out">
-                            <img src="{{ Storage::url($tech->image) }}" alt="{{ $tech->title }}" width="370px"
-                                 height="202px">
-                            <div class="date">
-                                <b>{{ $tech->created_at->format('d') }}</b> <br> {{ $tech->created_at->format('M') }}
+        <section id="blog-construct">
+            <div class="container">
+                <div class="section-title">
+                    <h1>New Technology</h1>
+                </div>
+                <div class="row">
+                    @foreach($newTechnologyPosts as $tech)
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-blog-post">
+                            <div class="img-holder hvr-rectangle-out">
+                                <img src="{{ Storage::url($tech->image) }}" alt="{{ $tech->title }}" width="370px"
+                                     height="202px">
+                                <div class="date">
+                                    <b>{{ $tech->created_at->format('d') }}</b>
+                                    <br> {{ $tech->created_at->format('M') }}
+                                </div>
                             </div>
+                            <a href="#"><h2>{{ $tech->title }}</h2></a>
+                            <p>{{$tech->content}}</p>
+                            <ul>
+                                <li><span><b>By: </b> Admin</span></li>
+                                <li><a href="#"></a></li>
+                            </ul>
                         </div>
-                        <a href="#"><h2>{{ $tech->title }}</h2></a>
-                        <p>{{$tech->content}}</p>
-                        <ul>
-                            <li><span><b>By: </b> Admin</span></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </div>
-                @endforeach
+                    @endforeach
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
     @endif
     @if(!$reviewPosts->isEmpty())
-    <section id="blog-construct">
-        <div class="container">
-            <div class="section-title">
-                <h1>Reviews</h1>
-            </div>
+        <section id="blog-construct">
+            <div class="container">
+                <div class="section-title">
+                    <h1>Reviews</h1>
+                </div>
 
-            <div class="row">
-                @foreach($reviewPosts as $review)
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-blog-post">
-                        <div class="img-holder hvr-rectangle-out">
-                            <img src="{{ Storage::url($review->image)  }}" alt=" {{ $review->title }}" width="370px"
-                                 height="202px">
-                            <div class="date">
-                                <b>{{ $review->created_at ->format('d') }}</b> <br>{{ $review->created_at->format('M') }}
+                <div class="row">
+                    @foreach($reviewPosts as $review)
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-blog-post">
+                            <div class="img-holder hvr-rectangle-out">
+                                <img src="{{ Storage::url($review->image)  }}" alt=" {{ $review->title }}" width="370px"
+                                     height="202px">
+                                <div class="date">
+                                    <b>{{ $review->created_at ->format('d') }}</b>
+                                    <br>{{ $review->created_at->format('M') }}
+                                </div>
                             </div>
+                            <a href="{{ route('blogs.show',$review->id) }}"><h2>{{$review->title}}</h2></a>
+                            <p>{{ $review->body }}</p>
+                            <ul>
+                                <li><span><b>By: </b> Admin</span></li>
+                                <li><a href="#"></a></li>
+                            </ul>
                         </div>
-                        <a href="{{ route('blogs.show',$review->id) }}"><h2>{{$review->title}}</h2></a>
-                        <p>{{ $review->body }}</p>
-                        <ul>
-                            <li><span><b>By: </b> Admin</span></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </div>
-                @endforeach
+                    @endforeach
+                </div>
             </div>
-        </div>
 
-        </div>
-    </section>
+            </div>
+        </section>
     @endif
+    @if(!$newsPosts->isEmpty())
+        <section id="blog-construct">
+            <div class="container">
+                <div class="section-title">
+                    <h1>News</h1>
+                </div>
 
-    <section id="blog-construct">
-        <div class="container">
-            <div class="section-title">
-                <h1>News</h1>
-            </div>
-
-            <div class="row">
-                @foreach($newsPosts as $new)
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-blog-post">
-                        <div class="img-holder hvr-rectangle-out">
-                            <img src="{{ Storage::url($new->image)  }}" alt=" {{ $new->title }}" width="370px"
-                                 height="202px">
-                            <div class="date">
-                                <b>{{ $new->created_at ->format('d') }}</b> <br> {{ $new->created_at ->format('M') }}
+                <div class="row">
+                    @foreach($newsPosts as $new)
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-blog-post">
+                            <div class="img-holder hvr-rectangle-out">
+                                <img src="{{ Storage::url($new->image)  }}" alt=" {{ $new->title }}" width="370px"
+                                     height="202px">
+                                <div class="date">
+                                    <b>{{ $new->created_at ->format('d') }}</b>
+                                    <br> {{ $new->created_at ->format('M') }}
+                                </div>
                             </div>
+                            <a href="#"><h2>{{$new->title}}</h2></a>
+                            <p>{{ $new->body }}</p>
+                            <ul>
+                                <li><span><b>By: </b> Admin</span></li>
+                                <li><a href="#"></a></li>
+                            </ul>
                         </div>
-                        <a href="#"><h2>{{$new->title}}</h2></a>
-                        <p>{{ $new->body }}</p>
-                        <ul>
-                            <li><span><b>By: </b> Admin</span></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </div>
-                @endforeach
+                    @endforeach
+                </div>
             </div>
-        </div>
 
-        </div>
-    </section>
-
+            </div>
+        </section>
+    @endif
     <section id="great-construct-team">
         <div class="container">
             <div class="row">
