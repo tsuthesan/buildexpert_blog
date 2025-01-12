@@ -53,9 +53,9 @@
                     <li class="dropdown">
                         <a href="#">Extimator</a>
                         <ul class="submenu">
-                            <li><a href="search-result.html">New House</a></li>
+                            <li><a href="">New House</a></li>
                             <li class="dropdown">
-                                <a href="about.html">Interior</a>
+                                <a href="">Interior</a>
                                 <ul class="submenu">
                                     <li><a href="">Flooring</a></li>
                                     <li><a href="">Bath room</a></li>
@@ -77,7 +77,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="">Contact Us</a></li>
                     @auth
                     <li class="dropdown">
                         <a href="">Admin</a>
@@ -85,10 +85,9 @@
                             <li><a href="{{ route('blogs.create') }}">New News</a></li>
 {{--                            <li><a href="{{ route('blogs.overview') }}">Overview</a></li>--}}
                             <li><a href="{{ route('tags.index') }}">Tags</a></li>
-{{--                            <li><a href="{{ route('users.index') }}">Users</a></li>--}}
+                            <li><a href="{{ route('users.index') }}">Users</a></li>
                             <li><a href="{{ route('permissions.index') }}">Permission</a></li>
                             <li><a href="{{ route('roles.index') }}">Roles</a></li>
-                            <li><a href="{{ route('users.index') }}">Users</a></li>
                             <li><a href="{{ route('blogs.overview') }}">Overview</a></li>
                             <li><a href="{{ route('logout') }}">Sign Out</a></li>
 
