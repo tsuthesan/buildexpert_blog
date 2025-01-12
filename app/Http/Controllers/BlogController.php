@@ -21,7 +21,7 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $blogs = Blog::where('published',1)->paginate(10);
+        $blogs = Blog::where('published',1) ->orderBy('created_at', 'desc')->paginate(10);
         return view('blogs.index',compact('blogs'));
     }
 
@@ -31,7 +31,7 @@ class BlogController extends Controller
         if (!$tag) {
             return redirect()->back()->with('error', 'new technology" not found.');
         }
-        $blogs = $tag->blogs()->paginate(20);
+        $blogs = $tag->blogs()->orderBy('created_at', 'desc')->paginate(20);
         return view('blogs.tech', compact('blogs'));
 //        return view('blogs.tech');
     }
@@ -41,7 +41,7 @@ class BlogController extends Controller
         if (!$tag) {
             return redirect()->back()->with('error', 'Tag "new technology" not found.');
         }
-        $blogs = $tag->blogs()->paginate(20);
+        $blogs = $tag->blogs() ->orderBy('created_at', 'desc')->paginate(20);
         return view('blogs.review', compact('blogs'));
 
     }
