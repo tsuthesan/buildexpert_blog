@@ -28,7 +28,7 @@
                                         process.</p>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <img src="{{ asset('../build/assets/img/service-we-provide/1.jpg')}}" alt=""
+                                            <img src="{{ asset('../build/assets/img/service-we-provide/Estimating.jpg')}}" alt=""
                                                  height="165px" width="279px">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -53,7 +53,7 @@
                                         project, ensuring a smooth transition from concept to construction.</p>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <img src="{{ asset('../build/assets/img/service-we-provide/1.jpg')}}" alt=""
+                                            <img src="{{ asset('../build/assets/img/service-we-provide/Drafting.jpg')}}" alt=""
                                                  height="165px" width="279px">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -79,7 +79,7 @@
                                         lifelike presentations.</p>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                            <img src="{{ asset('../build/assets/img/service-we-provide/1.jpg')}}" alt=""
+                                            <img src="{{ asset('../build/assets/img/service-we-provide/3D rendering.jpg')}}" alt=""
                                                  height="165px" width="279px">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
