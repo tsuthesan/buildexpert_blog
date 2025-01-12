@@ -118,7 +118,7 @@
                             <img src="{{ Storage::url($review->image)  }}" alt=" {{ $review->title }}" width="370px"
                                  height="202px">
                             <div class="date">
-                                <b>{{ $review->created_at ->format('d') }}</b> <br>{{ $blog->created_at->format('M') }}
+                                <b>{{ $review->created_at ->format('d') }}</b> <br>{{ $review->created_at->format('M') }}
                             </div>
                         </div>
                         <a href="#"><h2>{{$review->title}}</h2></a>
