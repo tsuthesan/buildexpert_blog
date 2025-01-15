@@ -8,7 +8,7 @@
             {{--                     height="372px">--}}
             {{--            </div> <!-- /.widget -->--}}
             <!-- .widget -->
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 widget">
+            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 widget">
                 <h3 style="font-size: 48px">Build Expert</h3>
                 <ul class="social">
                     <li><a href="https://www.facebook.com/BuildExpertAus" class="hvr-radial-out"><i
