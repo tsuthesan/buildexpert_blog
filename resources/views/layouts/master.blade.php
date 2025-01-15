@@ -6,7 +6,7 @@
         @yield('title')
     </title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <link rel="icon" type="image/x-icon" href="{{ asset('../build/assets/img/web.ico') }}">
     <!-- Responsive Meta Tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

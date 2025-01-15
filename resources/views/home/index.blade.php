@@ -5,8 +5,14 @@
 @section('content')
 
     @include('layouts.carousel')
-
-{{--    <section id="construction-welcome">--}}
+<section style="background-color: rgb(239, 166, 0); height: 20%">
+   <div style="height: 20%" class="tox-statusbar__text-container--flex-end">
+       <br>
+       <br>
+       <br>
+   </div>
+</section>
+ {{--    <section id="construction-welcome">--}}
 {{--        <div class="container">--}}
 {{--            <div class="row">--}}
 {{--                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 single-construction-welcome">--}}
