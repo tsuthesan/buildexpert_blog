@@ -73,5 +73,6 @@
             </div>
         </div>
     </section> <!-- /#blog-post -->
-
+    @include('layouts.footer')
 @stop
+
