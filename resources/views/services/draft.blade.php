@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('styles')
+    <link rel="stylesheet" href="{{ asset('../build/assets/css/custom.css') }}">
+    @stop
 @section('content')
     <section id="service-we-provide" class="construct">
         <div class="container">
@@ -37,6 +40,7 @@
                                         </div>
                                     </div>
                                 </div>
+                            </br>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
                                     <img src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""
                                          height="508px" width="288px">
@@ -50,6 +54,6 @@
             </div>
         </div>
     </section>
-    </br>
+    <br>
     @include('layouts.footer')
 @stop
