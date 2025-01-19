@@ -197,21 +197,21 @@
         <div class="col-md-4">
             <div class="left-box">
                 <h4><i class="glyphicon glyphicon-earphone"></i> PHONE</h4>
-                <p>0434 342 316</p>
+                <p>0405 723 838</p>
             </div>
             <div class="left-box">
                 <h4><i class="glyphicon glyphicon-envelope"></i> EMAIL</h4>
-                <p>info@bluelevel.com.au</p>
-                <p>rick@bluelevel.com.au</p>
+                <p>info@buildexpert.com.au</p>
+                <
             </div>
             <div class="left-box">
                 <h4><i class="glyphicon glyphicon-map-marker"></i> LOCATION</h4>
-                <p>Corporate One</p>
+                <p>6 Russell Street Nunawasing 3131 VIC</p>
             </div>
             <div class="left-box">
                 <h4><i class="glyphicon glyphicon-share-alt"></i> FOLLOW US</h4>
                 <p>
-                    <a href="#"><i class="glyphicon glyphicon-thumbs-up"></i> Facebook</a><br>
+                    <a href="https://www.facebook.com/BuildExpertAus"><i class="glyphicon glyphicon-thumbs-up"></i> Facebook</a><br>
                     <a href="#"><i class="glyphicon glyphicon-camera"></i> Instagram</a><br>
                     <a href="#"><i class="glyphicon glyphicon-globe"></i> Twitter</a>
                 </p>
