@@ -22,7 +22,7 @@
             <div class="pull-left logo">
                 <a href="{{ route('welcome') }}">
                     <img src="" alt="">
-                    <img src="{{ asset('../build/assets/img/resources/build-logo.png') }}" alt="buildexpert">
+                    <img src="{{ asset('../build/assets/img/resources/buildExpert-logo.png') }}" alt="buildexpert">
                 </a>
             </div>
             <nav class="pull-right mainmenu-container clearfix">
