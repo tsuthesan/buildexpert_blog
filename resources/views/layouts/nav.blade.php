@@ -21,7 +21,6 @@
         <div class="clearfix">
             <div class="pull-left logo">
                 <a href="{{ route('welcome') }}">
-                    <img src="" alt="">
                     <img src="{{ asset('../build/assets/img/resources/buildExpert-logo.png') }}" alt="buildexpert">
                 </a>
             </div>
