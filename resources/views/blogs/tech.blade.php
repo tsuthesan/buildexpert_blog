@@ -72,4 +72,5 @@
             </div>
         </div>
     </section> <!-- /#page-title -->
+    @include('layouts.footer')
 @stop
