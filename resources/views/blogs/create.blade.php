@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('title')
+    ||Build Expert - create
+@stop
 @section('scripts')
     <script> {{ asset('/build/tinymce/tinymce.js') }}</script>
 

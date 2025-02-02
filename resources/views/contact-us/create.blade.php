@@ -79,4 +79,6 @@
     </div>
 </div>
 </form>
+    @include('layouts.footer')
 @stop
+

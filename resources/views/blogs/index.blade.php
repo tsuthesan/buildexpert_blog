@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('title')
+    ||Build Expert - Blogs
+@stop
 @section('content')
     <!-- #page-title -->
     <section id="page-title">

@@ -1,4 +1,7 @@
 @extends('layouts.master')
+@section('title')
+    ||Build Expert - Contact Us
+@stop
 @section('content')
     <div class="container-fluid">
         <div class="pull-right">

@@ -42,7 +42,8 @@ Route::post('/register/store', [AuthController::class, 'register'])->name('regis
 Route::get('/login', [AuthController::class, 'signin'])->name('login');
 Route::post('/login/store', [AuthController::class, 'login'])->name('login.store');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
-Route::resource('/contact-us',ContactController::class);
+Route::get('/contact-us/create',[ContactController::class,'create'])->name('contact-us.create');
+Route::post('/contact-us/store',[ContactController::class,'store'])->name('contact-us.store');
 
 Route::get('/services', [ServiceController::class, 'index'])->name('services.index');
 Route::get('/services/estimate', [ServiceController::class, 'estimate'])->name('services.estimate');
@@ -58,8 +59,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/tags/{tag}/delete', [TagController::class, 'delete'])->name('tags.delete');
     Route::resource('/users', UserController::class);
     Route::get('/users/{user}/delete', [UserController::class, 'delete'])->name('users.delete');
-
-
-
+    Route::get('/contact-us',[ContactController::class,'index'])->name('contact-us.index');
 
 });
