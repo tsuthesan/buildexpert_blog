@@ -36,7 +36,7 @@
                     <td><span class="" style="font-size: 20px;">{{ $contact->message  }}</span></td>
                     <td>
                         @if($contact->file)
-                            <a href="{{ asset('storage/'.$contact->file) }}" target="_blank"> {{ $contact->file }}</a>
+                            <a href="{{ asset('storage/'.$contact->file) }}" target="_blank"> {{ basename($contact->file)  }}</a>
                         @else
                         @endif
                     </td>
