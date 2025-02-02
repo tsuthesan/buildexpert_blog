@@ -60,4 +60,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/users/{user}/delete', [UserController::class, 'delete'])->name('users.delete');
 
 
+
+
 });
