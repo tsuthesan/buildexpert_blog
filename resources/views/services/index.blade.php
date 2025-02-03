@@ -45,8 +45,8 @@
                                     </div>
                                 </div>
                                 <br>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
-                                    <img src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn d-flex justify-content-center">
+                                    <img class="img-fluid custom-img" src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""
                                          height="508px" width="288px">
                                 </div>
                             </div>
@@ -70,8 +70,8 @@
                                     </div>
                                 </div>
                                 <br>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
-                                    <img src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn d-flex justify-content-center">
+                                    <img class="img-fluid custom-img" src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""
                                          height="508px" width="288px">
                                 </div>
                             </div>
@@ -98,8 +98,8 @@
                                     </div>
                                 </div>
                                 <br>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn">
-                                    <img src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zoomIn d-flex justify-content-center">
+                                    <img class="img-fluid custom-img" src="{{ asset('../build/assets/img/service-we-provide/2.png')}}" alt=""
                                          height="508px" width="288px">
                                 </div>
                             </div>
